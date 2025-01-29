@@ -139,9 +139,12 @@ def main():
         elif int(inputs[0]) == 3:
             
             ("Cargando tags de los libros en el catalogo....")
-            total = logic.load_books_tags(app)
+            total = load_books_tags(app)
             print("El total de tags de los libros cargados es:" + str(total) + "\n")
         
+        elif int(inputs[0]) == 3:
+            
+            pass
 
         elif int(inputs[0]) == 0:
             working = False
